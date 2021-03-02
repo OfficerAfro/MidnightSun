@@ -41,3 +41,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   width: 95%;
   height: 500px;
 }
+
+.centered{
+  display: flex;
+  place-items: center;
+}

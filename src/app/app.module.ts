@@ -19,6 +19,10 @@ import { MatMenuModule } from '@angular/material/menu';
 import { NoteComponent } from './note/note.component';
 import { DownloadComponent } from './download/download.component';
 import { CarComponent } from './car/car.component';
+import { MaterialModule } from './material/material.module';
+
+
+
 
 @NgModule({
   declarations: [
@@ -28,7 +32,8 @@ import { CarComponent } from './car/car.component';
     AlphaComponent,
     NoteComponent,
     DownloadComponent,
-    CarComponent
+    CarComponent,
+    MaterialModule
   ],
   imports: [
     BrowserModule,
