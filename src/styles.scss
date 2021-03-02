@@ -12,8 +12,8 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$midnightsun-primary: mat-palette($mat-indigo);
-$midnightsun-accent: mat-palette($mat-pink, A200, A100, A400);
+$midnightsun-primary: mat-palette($mat-deep-purple);
+$midnightsun-accent: mat-palette($mat-teal, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
 $midnightsun-warn: mat-palette($mat-red);
@@ -37,3 +37,7 @@ $midnightsun-theme: mat-light-theme((
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.contentcard{
+  width: 95%;
+  height: 500px;
+}
