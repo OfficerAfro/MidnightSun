@@ -33,7 +33,7 @@ import { MaterialModule } from './material/material.module';
     NoteComponent,
     DownloadComponent,
     CarComponent,
-    MaterialModule
+    
   ],
   imports: [
     BrowserModule,
@@ -47,7 +47,8 @@ import { MaterialModule } from './material/material.module';
     MatListModule,
     MatGridListModule,
     MatCardModule,
-    MatMenuModule
+    MatMenuModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
