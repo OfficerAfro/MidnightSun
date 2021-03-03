@@ -42,6 +42,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
 import {OverlayModule} from '@angular/cdk/overlay';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 
 const materialcomp = [
@@ -89,6 +90,7 @@ const materialcomp = [
   OverlayModule,
   PortalModule,
   ScrollingModule,
+  FormsModule
 ]
 
 @NgModule({
