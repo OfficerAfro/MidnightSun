@@ -1,5 +1,8 @@
 .grid-container {
     margin: 20px;
+    // padding: 20px;
+    // background: darkslategrey;
+    // background-image: url("../../assets/images/canyons.jpg");
   }
   
   .dashboard-card {
@@ -19,4 +22,17 @@
   .dashboard-card-content {
     text-align: center;
   }
-  
+  .mat-card-content{
+    // background-color: aquamarine;
+    place-items: center;
+    text-align: center;
+  }
+  .mat-card-title{
+    text-align: center;
+    // background-color: rebeccapurple;
+    // place-items: center;
+  }
+
+  .mat-card{
+    background-color: darkgray;
+  }

@@ -1,5 +1,8 @@
 .grid-container {
     margin: 20px;
+    // padding: 2px;
+    background: rgb(75,63,251);
+background: linear-gradient(194deg, rgba(75,63,251,1) 3%, rgba(252,70,70,1) 81%);
   }
   
   .dashboard-card {
@@ -19,4 +22,49 @@
   .dashboard-card-content {
     text-align: center;
   }
-  
+  .mat-card{
+    background: rgb(75,63,251);
+background: linear-gradient(194deg, rgba(75,63,251,1) 3%, rgba(252,70,70,1) 81%);
+  }
+  // .mat-card{
+    // background-image: url("../../assets/images/pgt4rgt.jpg");
+    // background-repeat: no-repeat;
+    // color: #c44ae9;
+    
+    // color: linear-gradient(to bottom, #ffff99 0%, #ff9999 100%);
+  // }
+.porsche{
+  background: linear-gradient(to bottom, #ffff99 0%, #ff9999 100%);
+  // background-image: url("../../assets/images/pgt4rgt.jpg");
+}
+.toyota{
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(245,253,45,1) 100%);
+  // background-image: url("../../assets/images/pgt4rgt.jpg");
+  // background-size: auto;
+}
+.subaru
+{
+  background: linear-gradient(0deg, rgba(34,135,195,1) 0%, rgba(37,245,190,0.9051995798319328) 100%);
+  // background-image: url("../../assets/images/pgt4rgt.jpg");
+}
+.bmw{
+  background: linear-gradient(0deg, rgba(42,34,195,1) 0%, rgba(255,255,255,0.9051995798319328) 100%);
+  // background-image: url("../../assets/images/pgt4rgt.jpg");
+}
+.merc{
+  background: linear-gradient(0deg, rgba(51,195,34,1) 0%, rgba(245,37,104,0.9051995798319328) 100%);
+  // background-image: url("../../assets/images/pgt4rgt.jpg");
+}
+.honda{
+  background: linear-gradient(0deg, rgba(231,251,229,1) 0%, rgba(0,82,201,0.9051995798319328) 100%);
+  // background-image: url("../../assets/images/pgt4rgt.jpg");
+}
+.ferrari{
+  background: linear-gradient(0deg, rgba(232,9,9,1) 43%, rgba(225,246,13,0.9444152661064426) 100%);
+  // background-image: url("../../assets/images/pgt4rgt.jpg");
+}
+
+  // .mat-card-content{
+    // color: linear-gradient(to bottom, #ffff99 0%, #ff9999 100%);
+
+  // }
