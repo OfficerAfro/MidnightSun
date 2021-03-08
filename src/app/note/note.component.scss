@@ -22,10 +22,9 @@
   .dashboard-card-content {
     text-align: center;
   }
-  .mat-card-content{
+  mat-card-content p{
     // background-color: aquamarine;
     place-items: center;
-    text-align: center;
   }
   .mat-card-title{
     text-align: center;
@@ -34,5 +33,20 @@
   }
 
   .mat-card{
-    background-color: darkgray;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.9920343137254902) 1%, rgba(213,213,213,0.9640231092436975) 77%);
+  }
+  .note-form-field{
+    width: 100%;
+  }
+  .title-info{
+    text-align: left;
+    
+  }
+
+// .matInput{
+//   width: 100%;
+// }
+  .mat-h1{
+    color: #d5d5d5;
   }

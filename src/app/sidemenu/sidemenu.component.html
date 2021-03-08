@@ -16,6 +16,13 @@
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
       <span>MidnightSun</span>
+      
+      <span class="example-spacer"></span>
+      <button mat-icon-button [routerLink]="['/']" aria-label="Alpha"><mat-icon>home</mat-icon></button>
+      <button mat-icon-button [routerLink]="['/note']" aria-label="Notes"><mat-icon>note</mat-icon></button> 
+      <button mat-icon-button [routerLink]="['/download']" aria-label="Downloader"><mat-icon>downloading</mat-icon></button>
+      <button mat-icon-button [routerLink]="['/car']" aria-label="Car"><mat-icon>directions_car</mat-icon></button>
+
     </mat-toolbar>
     <router-outlet></router-outlet>
     <!-- Add Content Here -->

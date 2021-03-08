@@ -1,9 +1,9 @@
 <div class="grid-container">
-  <!-- <h1 class="mat-h1">Notes</h1> -->
+  <h1 class="mat-h1">Notes</h1>
   <mat-card class="contentcard">
     <mat-card-title>Add Notes Here</mat-card-title>
     <mat-card-content>
-
+<!-- 
       <div class="title-info">
         <p>Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. 
           Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, 
@@ -13,10 +13,10 @@
           Schriftbearbeitung geschafft (bemerke, nahezu unverändert). Bekannt wurde 
           es 1960, mit dem erscheinen von "Letraset", welches Passagen von Lorem Ipsum 
           enhielt, so wie Desktop Software wie "Aldus PageMaker" - ebenfalls mit Lorem Ipsum.</p>
-      </div>
+      </div> -->
       <mat-form-field class="note-form-field">
         <mat-label>Add Notes</mat-label>
-        <input matInput type="text" [(ngModel)]="value">
+        <textarea matInput type="text" [(ngModel)]="value"></textarea>
         <button mat-button *ngIf="value" matSuffix mat-icon-button aria-label="Clear" (click)="value=''">
           <mat-icon>close</mat-icon>
         </button>
