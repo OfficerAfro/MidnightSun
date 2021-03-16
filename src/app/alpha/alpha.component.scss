@@ -30,3 +30,25 @@ background: linear-gradient(247deg, rgba(249,255,0,0.9920343137254902) 38%, rgba
   color: #ac1a1a;
   text-align: center;
 }
+.parent {
+  display: grid;
+  grid-template: auto 1fr auto / auto 1fr auto;
+}
+
+.main-box {
+  grid-column: 1 / 3;
+}
+.right-side-box {
+  grid-column: 3 / 4;
+}
+.left-side-box {
+  grid-column: 1 / 2;
+}
+
+ .header {
+  padding: 2rem;
+  grid-column: 1 / 4;
+}
+.footer {
+  grid-column: 1 / 4;
+}

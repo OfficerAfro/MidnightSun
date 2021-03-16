@@ -20,6 +20,8 @@ import { NoteComponent } from './note/note.component';
 import { DownloadComponent } from './download/download.component';
 import { CarComponent } from './car/car.component';
 import { MaterialModule } from './material/material.module';
+import { BlankpageComponent } from './blankpage/blankpage.component';
+import { MoneyComponent } from './money/money.component';
 
 
 
@@ -33,6 +35,8 @@ import { MaterialModule } from './material/material.module';
     NoteComponent,
     DownloadComponent,
     CarComponent,
+    BlankpageComponent,
+    MoneyComponent,
     
   ],
   imports: [

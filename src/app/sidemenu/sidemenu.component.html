@@ -8,6 +8,8 @@
       <a mat-list-item href="download">Downloader</a>
       <a mat-list-item href="note">Notes</a>
       <a mat-list-item href="car">Cars</a>
+      <a mat-list-item href="blank">Blank</a>
+      <a mat-list-item href="money">Money</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -22,7 +24,8 @@
       <button mat-icon-button [routerLink]="['/note']" aria-label="Notes"><mat-icon>note</mat-icon></button> 
       <button mat-icon-button [routerLink]="['/download']" aria-label="Downloader"><mat-icon>downloading</mat-icon></button>
       <button mat-icon-button [routerLink]="['/car']" aria-label="Car"><mat-icon>directions_car</mat-icon></button>
-
+      <button mat-icon-button [routerLink]="['/blank']" aria-label="Blank"><mat-icon>pages</mat-icon></button>
+      <button mat-icon-button [routerLink]="['/money']" aria-label="Money"><mat-icon>money</mat-icon></button>
     </mat-toolbar>
     <router-outlet></router-outlet>
     <!-- Add Content Here -->
