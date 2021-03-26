@@ -30,7 +30,13 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/jsfiles/money.js",
+              "src/assets/jsfiles/maths.js",
+              "src/assets/jsfiles/notes.js",
+              "src/assets/jsfiles/notes2.js",
+              "src/assets/jsfiles/ytdl.js"
+            ]
           },
           "configurations": {
             "production": {
