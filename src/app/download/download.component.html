@@ -2,11 +2,18 @@
     <h1 class="mat-h1">Downloader</h1>
     <mat-card class="contentcard">
         <mat-card-title>Here you can download anything</mat-card-title>
-        <form class="example-form">
+        <form id="ytdl-form" class="example-form">
         <mat-form-field >
-            <input class="centered example-full-width" matInput>
+            <input class="centered example-full-width" matInput id="url">
         </mat-form-field>
+        <div class="control">
+            <button
+            mat-raised-button color="accent" class="button is-large is-fullwidth is-primary is-outlined" onclick="downloadClick"
+            >
+              Download it
+            </button>
+          </div>
         </form>
-<button mat-raised-button color="accent" onclick="qyudl">download it</button>
+<!-- <button mat-raised-button color="accent" onclick="qyudl">download it</button> -->
     </mat-card>
 </div>
