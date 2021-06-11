@@ -22,6 +22,11 @@ import { CarComponent } from './car/car.component';
 import { MaterialModule } from './material/material.module';
 import { BlankpageComponent } from './blankpage/blankpage.component';
 import { MoneyComponent } from './money/money.component';
+import { AddrressComponent } from './addrress/addrress.component';
+import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
+import { MatRadioModule } from '@angular/material/radio';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -37,6 +42,7 @@ import { MoneyComponent } from './money/money.component';
     CarComponent,
     BlankpageComponent,
     MoneyComponent,
+    AddrressComponent,
     
   ],
   imports: [
@@ -52,7 +58,11 @@ import { MoneyComponent } from './money/money.component';
     MatGridListModule,
     MatCardModule,
     MatMenuModule,
-    MaterialModule
+    MaterialModule,
+    MatInputModule,
+    MatSelectModule,
+    MatRadioModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -35,7 +35,10 @@
               "src/assets/jsfiles/maths.js",
               "src/assets/jsfiles/notes.js",
               "src/assets/jsfiles/notes2.js",
-              "src/assets/jsfiles/ytdl.js"
+              "src/assets/jsfiles/ytdl.js",
+              "src/assets/jsfiles/confetti.js",
+              "src/assets/jsfiles/confettiRandom.js"
+
             ]
           },
           "configurations": {

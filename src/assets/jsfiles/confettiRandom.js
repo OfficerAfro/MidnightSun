@@ -1,32 +1,19 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>MidnightSun</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
-<body class="mat-typography" onload='init()'>
-  <app-root></app-root>
-  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
 
-  <script>
-    var myCanvas = document.getElementById('assCanvas');
-    document.body.appendChild(myCanvas);
 
-    var myConfetti = confetti.create(myCanvas, {
-        resize: true,
-        useWorker: true
-    });
-    </script>
-    <script>
-        function confettiR(){
 
-       
+
+        var myCanvas = document.getElementById('assCanvas');
+        document.body.appendChild(myCanvas);
+
+        var myConfetti = confetti.create(myCanvas, {
+            resize: true,
+            useWorker: true
+        });
+
+
+function confettiR(){
+
+           
     function randomInRange(min, max) {
         return Math.random() * (max - min) + min;
     }
@@ -65,8 +52,3 @@
         // confetti function
     // });
  }
-</script>
-
-</body>
-<!-- <script src="src/assets/jsfiles/money.js"></script> -->
-</html>

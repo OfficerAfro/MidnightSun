@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AddrressComponent } from './addrress/addrress.component';
 import { AlphaComponent } from './alpha/alpha.component';
 import { AppComponent } from './app.component';
 import { BlankpageComponent } from './blankpage/blankpage.component';
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path: 'note', component : NoteComponent},
   {path: 'car', component : CarComponent},
   {path: 'blank', component: BlankpageComponent},
-  {path: 'money', component: MoneyComponent}
+  {path: 'money', component: MoneyComponent},
+  {path: 'adr', component: AddrressComponent}
 ];
 
 @NgModule({
