@@ -27,6 +27,8 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import { ReactiveFormsModule } from '@angular/forms';
+import { MomoLayoutComponent } from './momo-layout/momo-layout.component';
+import { SelectorPageComponent } from './selector-page/selector-page.component';
 
 
 
@@ -43,6 +45,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     BlankpageComponent,
     MoneyComponent,
     AddrressComponent,
+    MomoLayoutComponent,
+    SelectorPageComponent,
     
   ],
   imports: [

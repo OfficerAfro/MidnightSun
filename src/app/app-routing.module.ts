@@ -7,6 +7,7 @@ import { BlankpageComponent } from './blankpage/blankpage.component';
 import { CarComponent } from './car/car.component';
 import { DownloadComponent } from './download/download.component';
 import { HomeComponent } from './home/home.component';
+import { MomoLayoutComponent } from './momo-layout/momo-layout.component';
 import { MoneyComponent } from './money/money.component';
 import { NoteComponent } from './note/note.component';
 import { SidemenuComponent } from './sidemenu/sidemenu.component';
@@ -19,7 +20,9 @@ const routes: Routes = [
   {path: 'car', component : CarComponent},
   {path: 'blank', component: BlankpageComponent},
   {path: 'money', component: MoneyComponent},
-  {path: 'adr', component: AddrressComponent}
+  {path: 'adr', component: AddrressComponent},
+  {path: 'momolo', component: MomoLayoutComponent},
+  {path: 'sidemenu', component: SidemenuComponent}
 ];
 
 @NgModule({

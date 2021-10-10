@@ -1,0 +1,41 @@
+.centerImg{
+    height: 786px;
+    margin-right: 80px;
+    margin-left: 80px;
+    // width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/images/ramvision.jpg);
+//     filter: blur(5px);
+    -webkit-filter: blur(3px);
+}
+.row2{
+    flex: 1 1 360px;
+    flex: 0 1 150px;
+    margin: 15px;
+}
+.centerSpace{
+    flex: 1 1 360px;
+    flex: 0 1 360px; 
+    margin: 15px;
+}
+.row1{
+    flex: 1 1 360px;
+    flex: 0 1 360px;
+    margin: 15px;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.universitIes{
+    margin: 20px;
+    padding: 24px;
+    background-color: darkviolet;
+    background-color: hotpink;
+}
+.learnMore{
+    margin: 50px;
+    padding: 24px;
+    background-color: darkviolet;
+}
